@@ -56,8 +56,8 @@ build/
 *.log
 
 # Archivos de configuración de usuario de Spring Boot
-application.properties
-application.yml
+#application.properties
+#application.yml
 
 # Dependencias de Maven o Gradle (para que no se suban librerías)
 *.jar
