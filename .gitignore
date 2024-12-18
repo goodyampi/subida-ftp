@@ -1,0 +1,81 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignorar archivos de compilación de Maven o Gradle
+target/
+build/
+
+# Archivos generados por IDEs (Eclipse, IntelliJ IDEA, NetBeans, etc.)
+.idea/
+.vscode/
+
+# Archivos de configuración de VSCode
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Archivos de configuración específicos del proyecto en VSCode (si los hay)
+.vscode/*.code-workspace
+
+# Archivos temporales de compilación de Java
+*.class
+
+# Archivos de log
+*.log
+
+# Archivos de configuración de usuario de Spring Boot
+application.properties
+application.yml
+
+# Dependencias de Maven o Gradle (para que no se suban librerías)
+*.jar
+*.war
+*.ear
+
+# Archivos generados por Docker
+docker-compose.override.yml
+
+# Archivos temporales de sistemas operativos (Mac, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos locales
+*.sqlite
+*.db
+
+# Directorios de dependencias de herramientas de construcción como Maven
+/.mvn/
+mvnw
+mvnw.cmd
